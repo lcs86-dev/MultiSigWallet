@@ -1,15 +1,14 @@
-Ethereum Multisignature Wallet UI
-===================
+# Ethereum Multisignature Wallet UI
 
 A web user interface for the [MultiSigWallet](https://github.com/gnosis/MultiSigWallet).
 
-Requirements
--------------
-* Node v5+ (Confirmed working on v6.17.1 - will not work on current LTS v12.13.0)
-* [Grunt-cli](http://gruntjs.com/getting-started#installing-the-cli)
+## Requirements
 
-Install
--------------
+- Node v5+ (Confirmed working on v6.17.1 - will not work on current LTS v12.13.0)
+- [Grunt-cli](http://gruntjs.com/getting-started#installing-the-cli)
+
+## Install
+
 ```
 # For Ubuntu/Debian you need to install libusb development headers
 apt install -y libusb-1.0-0-dev
@@ -30,14 +29,17 @@ npm install
 grunt
 ```
 
-Test
--------------
+## Dapp build runtime (dapp/src/bundles/js/bundle.js)
+
+node 8.11.3
+
+## Test
+
 ```
 npm test
 ```
 
-Build
--------------
+## Build
 
 Web version
 
